@@ -1,0 +1,372 @@
+String Matching Experiment Results
+================================
+Running String Matching sequential...
+
+file size is 1000000000
+Total matches = 52
+Found in 0.636194 seconds
+
+file size is 1000000000
+Total matches = 52
+Found in 0.597650 seconds
+
+file size is 1000000000
+Total matches = 52
+Found in 0.598004 seconds
+
+file size is 1000000000
+Total matches = 52
+Found in 0.597028 seconds
+
+file size is 1000000000
+Total matches = 52
+Found in 0.597179 seconds
+--------------------------------
+Running String Matching MPI with 2 processes...
+
+file size is 1000000000
+block size for task 0 is 500000003
+block size for task 1 is 500000000
+Total matches for 0 = 22
+Total matches for 1 = 30
+Total matches = 52
+Total time: 0.591760 Comp time 0.346192 Comm time 0.245568 
+
+file size is 1000000000
+block size for task 0 is 500000003
+block size for task 1 is 500000000
+Total matches for 0 = 22
+Total matches for 1 = 30
+Total matches = 52
+Total time: 0.583742 Comp time 0.343528 Comm time 0.240214 
+
+file size is 1000000000
+block size for task 0 is 500000003
+block size for task 1 is 500000000
+Total matches for 0 = 22
+Total matches for 1 = 30
+Total matches = 52
+Total time: 0.587847 Comp time 0.346709 Comm time 0.241139 
+
+file size is 1000000000
+block size for task 0 is 500000003
+block size for task 1 is 500000000
+Total matches for 0 = 22
+Total matches for 1 = 30
+Total matches = 52
+Total time: 0.589711 Comp time 0.328404 Comm time 0.261307 
+
+file size is 1000000000
+block size for task 0 is 500000003
+block size for task 1 is 500000000
+Total matches for 1 = 30
+Total matches for 0 = 22
+Total matches = 52
+Total time: 0.586725 Comp time 0.347928 Comm time 0.238797 
+--------------------------------
+Running String Matching MPI with 4 processes...
+
+file size is 1000000000
+block size for task 1 is 250000003
+block size for task 2 is 250000003
+block size for task 0 is 250000003
+block size for task 3 is 250000000
+Total matches for 1 = 14
+Total matches for 2 = 18
+Total matches for 0 = 8
+Total matches for 3 = 12
+Total matches = 52
+Total time: 0.420581 Comp time 0.177582 Comm time 0.242999 
+
+file size is 1000000000
+block size for task 2 is 250000003
+block size for task 3 is 250000000
+block size for task 0 is 250000003
+block size for task 1 is 250000003
+Total matches for 2 = 18
+Total matches for 3 = 12
+Total matches for 0 = 8
+Total matches = 52
+Total time: 0.416315 Comp time 0.176356 Comm time 0.239958 
+Total matches for 1 = 14
+
+file size is 1000000000
+block size for task 3 is 250000000
+block size for task 2 is 250000003
+block size for task 0 is 250000003
+block size for task 1 is 250000003
+Total matches for 3 = 12
+Total matches for 2 = 18
+Total matches for 0 = 8
+Total matches = 52
+Total time: 0.421048 Comp time 0.178350 Comm time 0.242698 
+Total matches for 1 = 14
+
+file size is 1000000000
+block size for task 2 is 250000003
+block size for task 3 is 250000000
+block size for task 0 is 250000003
+block size for task 1 is 250000003
+Total matches for 2 = 18
+Total matches for 3 = 12
+Total matches for 1 = 14
+Total matches for 0 = 8
+Total matches = 52
+Total time: 0.418903 Comp time 0.177380 Comm time 0.241523 
+
+file size is 1000000000
+block size for task 1 is 250000003
+block size for task 3 is 250000000
+block size for task 0 is 250000003
+block size for task 2 is 250000003
+Total matches for 1 = 14
+Total matches for 3 = 12
+Total matches for 2 = 18
+Total matches for 0 = 8
+Total matches = 52
+Total time: 0.418094 Comp time 0.178549 Comm time 0.239545 
+--------------------------------
+Running String Matching MPI with 8 processes...
+
+file size is 1000000000
+block size for task 2 is 125000003
+block size for task 3 is 125000003
+block size for task 5 is 125000003
+Total matches for 2 = 7
+block size for task 4 is 125000003
+block size for task 1 is 125000003
+Total matches for 5 = 10
+block size for task 6 is 125000003
+Total matches for 3 = 7
+Total matches for 4 = 8
+block size for task 0 is 125000003
+block size for task 7 is 125000000
+Total matches for 6 = 4
+Total matches for 1 = 3
+Total matches for 0 = 5
+Total matches for 7 = 8
+Total matches = 52
+Total time: 0.445775 Comp time 0.160516 Comm time 0.285259 
+
+file size is 1000000000
+block size for task 1 is 125000003
+block size for task 2 is 125000003
+block size for task 4 is 125000003
+Total matches for 1 = 3
+block size for task 6 is 125000003
+block size for task 7 is 125000000
+block size for task 3 is 125000003
+Total matches for 2 = 7
+Total matches for 6 = 4
+block size for task 0 is 125000003
+block size for task 5 is 125000003
+Total matches for 7 = 8
+Total matches for 4 = 8
+Total matches for 3 = 7
+Total matches for 0 = 5
+Total matches for 5 = 10
+Total matches = 52
+Total time: 0.443374 Comp time 0.159384 Comm time 0.283990 
+
+file size is 1000000000
+block size for task 1 is 125000003
+block size for task 2 is 125000003
+block size for task 3 is 125000003
+block size for task 4 is 125000003
+Total matches for 2 = 7
+block size for task 5 is 125000003
+Total matches for 1 = 3
+Total matches for 3 = 7
+block size for task 7 is 125000000
+block size for task 0 is 125000003
+block size for task 6 is 125000003
+Total matches for 4 = 8
+Total matches for 0 = 5
+Total matches for 6 = 4
+Total matches for 5 = 10
+Total matches for 7 = 8
+Total matches = 52
+Total time: 0.403814 Comp time 0.091483 Comm time 0.312332 
+
+file size is 1000000000
+block size for task 1 is 125000003
+block size for task 2 is 125000003
+block size for task 3 is 125000003
+Total matches for 1 = 3
+block size for task 4 is 125000003
+Total matches for 2 = 7
+block size for task 6 is 125000003
+block size for task 5 is 125000003
+Total matches for 3 = 7
+block size for task 0 is 125000003
+block size for task 7 is 125000000
+Total matches for 4 = 8
+Total matches for 5 = 10
+Total matches for 6 = 4
+Total matches for 0 = 5
+Total matches for 7 = 8
+Total matches = 52
+Total time: 0.442388 Comp time 0.092286 Comm time 0.350102 
+
+file size is 1000000000
+block size for task 2 is 125000003
+block size for task 4 is 125000003
+block size for task 1 is 125000003
+block size for task 3 is 125000003
+block size for task 7 is 125000000
+Total matches for 2 = 7
+Total matches for 1 = 3
+block size for task 6 is 125000003
+Total matches for 4 = 8
+block size for task 0 is 125000003
+block size for task 5 is 125000003
+Total matches for 7 = 8
+Total matches for 3 = 7
+Total matches for 0 = 5
+Total matches for 5 = 10
+Total matches for 6 = 4
+Total matches = 52
+Total time: 0.410168 Comp time 0.091730 Comm time 0.318438 
+--------------------------------
+Running String Matching MPI with 12 processes...
+
+file size is 1000000000
+block size for task 2 is 83333336
+block size for task 4 is 83333336
+block size for task 3 is 83333336
+block size for task 5 is 83333336
+Total matches for 2 = 3
+block size for task 1 is 83333336
+Total matches for 4 = 4
+block size for task 6 is 83333336
+Total matches for 3 = 5
+block size for task 7 is 83333336
+Total matches for 5 = 5
+block size for task 8 is 83333336
+Total matches for 1 = 0
+block size for task 9 is 83333336
+Total matches for 6 = 6
+block size for task 10 is 83333336
+Total matches for 7 = 3
+block size for task 0 is 83333336
+block size for task 11 is 83333333
+Total matches for 8 = 9
+Total matches for 9 = 3
+Total matches for 10 = 3
+Total matches for 11 = 6
+Total matches for 0 = 5
+Total matches = 52
+Total time: 0.423403 Comp time 0.108134 Comm time 0.315269 
+
+file size is 1000000000
+block size for task 1 is 83333336
+block size for task 2 is 83333336
+block size for task 4 is 83333336
+block size for task 5 is 83333336
+Total matches for 1 = 0
+block size for task 3 is 83333336
+Total matches for 2 = 3
+block size for task 6 is 83333336
+Total matches for 4 = 4
+block size for task 8 is 83333336
+Total matches for 5 = 5
+block size for task 7 is 83333336
+Total matches for 3 = 5
+block size for task 9 is 83333336
+block size for task 11 is 83333333
+Total matches for 6 = 6
+Total matches for 8 = 9
+block size for task 0 is 83333336
+block size for task 10 is 83333336
+Total matches for 7 = 3
+Total matches for 9 = 3
+Total matches for 11 = 6
+Total matches for 0 = 5
+Total matches for 10 = 3
+Total matches = 52
+Total time: 0.421265 Comp time 0.102988 Comm time 0.318278 
+
+file size is 1000000000
+block size for task 1 is 83333336
+block size for task 4 is 83333336
+block size for task 2 is 83333336
+block size for task 5 is 83333336
+Total matches for 1 = 0
+block size for task 3 is 83333336
+Total matches for 4 = 4
+block size for task 7 is 83333336
+Total matches for 2 = 3
+block size for task 6 is 83333336
+Total matches for 5 = 5
+block size for task 8 is 83333336
+Total matches for 3 = 5
+block size for task 10 is 83333336
+Total matches for 7 = 3
+block size for task 9 is 83333336
+block size for task 0 is 83333336
+Total matches for 6 = 6
+block size for task 11 is 83333333
+Total matches for 8 = 9
+Total matches for 10 = 3
+Total matches for 9 = 3
+Total matches for 0 = 5
+Total matches for 11 = 6
+Total matches = 52
+Total time: 0.422803 Comp time 0.107334 Comm time 0.315470 
+
+file size is 1000000000
+block size for task 2 is 83333336
+block size for task 1 is 83333336
+block size for task 3 is 83333336
+block size for task 4 is 83333336
+Total matches for 2 = 3
+block size for task 5 is 83333336
+Total matches for 1 = 0
+block size for task 7 is 83333336
+Total matches for 3 = 5
+block size for task 6 is 83333336
+Total matches for 4 = 4
+block size for task 8 is 83333336
+Total matches for 5 = 5
+block size for task 10 is 83333336
+block size for task 11 is 83333333
+Total matches for 7 = 3
+Total matches for 6 = 6
+block size for task 0 is 83333336
+block size for task 9 is 83333336
+Total matches for 8 = 9
+Total matches for 10 = 3
+Total matches for 11 = 6
+Total matches for 0 = 5
+Total matches for 9 = 3
+Total matches = 52
+Total time: 0.422342 Comp time 0.106331 Comm time 0.316011 
+
+file size is 1000000000
+block size for task 2 is 83333336
+block size for task 3 is 83333336
+block size for task 1 is 83333336
+block size for task 5 is 83333336
+Total matches for 2 = 3
+block size for task 8 is 83333336
+Total matches for 3 = 5
+block size for task 4 is 83333336
+Total matches for 1 = 0
+block size for task 6 is 83333336
+Total matches for 5 = 5
+block size for task 7 is 83333336
+Total matches for 8 = 9
+block size for task 9 is 83333336
+Total matches for 4 = 4
+block size for task 10 is 83333336
+block size for task 0 is 83333336
+block size for task 11 is 83333333
+Total matches for 6 = 6
+Total matches for 7 = 3
+Total matches for 9 = 3
+Total matches for 10 = 3
+Total matches for 0 = 5
+Total matches for 11 = 6
+Total matches = 52
+Total time: 0.422162 Comp time 0.102632 Comm time 0.319530 
+--------------------------------

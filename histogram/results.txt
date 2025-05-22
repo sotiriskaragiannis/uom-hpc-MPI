@@ -1,0 +1,117 @@
+Histogram MPI Experiment Results
+================================
+Running Histogram Sequential...
+width: 6000 (18000)
+height: 4000
+stride: 18000
+padding: 0
+Calculated in 1.536347 seconds
+width: 6000 (18000)
+height: 4000
+stride: 18000
+padding: 0
+Calculated in 1.166118 seconds
+width: 6000 (18000)
+height: 4000
+stride: 18000
+padding: 0
+Calculated in 1.120225 seconds
+width: 6000 (18000)
+height: 4000
+stride: 18000
+padding: 0
+Calculated in 1.214656 seconds
+width: 6000 (18000)
+height: 4000
+stride: 18000
+padding: 0
+Calculated in 1.114592 seconds
+--------------------------------
+Running Histogram MPI with 2 processes...
+width: 6000, height: 4000, stride: 18000, padding: 0
+Total time: 0.257715 sec
+Computation time: 0.029760 sec
+Communication time: 0.227955 sec
+width: 6000, height: 4000, stride: 18000, padding: 0
+Total time: 0.268518 sec
+Computation time: 0.030216 sec
+Communication time: 0.238302 sec
+width: 6000, height: 4000, stride: 18000, padding: 0
+Total time: 0.257039 sec
+Computation time: 0.029752 sec
+Communication time: 0.227286 sec
+width: 6000, height: 4000, stride: 18000, padding: 0
+Total time: 0.261590 sec
+Computation time: 0.029786 sec
+Communication time: 0.231804 sec
+width: 6000, height: 4000, stride: 18000, padding: 0
+Total time: 0.258624 sec
+Computation time: 0.029710 sec
+Communication time: 0.228914 sec
+--------------------------------
+Running Histogram MPI with 4 processes...
+width: 6000, height: 4000, stride: 18000, padding: 0
+Total time: 0.271327 sec
+Computation time: 0.015234 sec
+Communication time: 0.256092 sec
+width: 6000, height: 4000, stride: 18000, padding: 0
+Total time: 0.266673 sec
+Computation time: 0.015866 sec
+Communication time: 0.250806 sec
+width: 6000, height: 4000, stride: 18000, padding: 0
+Total time: 0.250805 sec
+Computation time: 0.015050 sec
+Communication time: 0.235756 sec
+width: 6000, height: 4000, stride: 18000, padding: 0
+Total time: 0.270373 sec
+Computation time: 0.015224 sec
+Communication time: 0.255149 sec
+width: 6000, height: 4000, stride: 18000, padding: 0
+Total time: 0.267408 sec
+Computation time: 0.015018 sec
+Communication time: 0.252390 sec
+--------------------------------
+Running Histogram MPI with 8 processes...
+width: 6000, height: 4000, stride: 18000, padding: 0
+Total time: 0.330766 sec
+Computation time: 0.008226 sec
+Communication time: 0.322540 sec
+width: 6000, height: 4000, stride: 18000, padding: 0
+Total time: 0.346424 sec
+Computation time: 0.017891 sec
+Communication time: 0.328533 sec
+width: 6000, height: 4000, stride: 18000, padding: 0
+Total time: 0.339033 sec
+Computation time: 0.012967 sec
+Communication time: 0.326066 sec
+width: 6000, height: 4000, stride: 18000, padding: 0
+Total time: 0.344282 sec
+Computation time: 0.013613 sec
+Communication time: 0.330669 sec
+width: 6000, height: 4000, stride: 18000, padding: 0
+Total time: 0.323195 sec
+Computation time: 0.009788 sec
+Communication time: 0.313407 sec
+--------------------------------
+Running Histogram MPI with 12 processes...
+width: 6000, height: 4000, stride: 18000, padding: 0
+Total time: 0.332181 sec
+Computation time: 0.009943 sec
+Communication time: 0.322238 sec
+width: 6000, height: 4000, stride: 18000, padding: 0
+Total time: 0.348020 sec
+Computation time: 0.009614 sec
+Communication time: 0.338406 sec
+width: 6000, height: 4000, stride: 18000, padding: 0
+Total time: 0.336913 sec
+Computation time: 0.013059 sec
+Communication time: 0.323853 sec
+width: 6000, height: 4000, stride: 18000, padding: 0
+Total time: 0.332723 sec
+Computation time: 0.009933 sec
+Communication time: 0.322790 sec
+width: 6000, height: 4000, stride: 18000, padding: 0
+Total time: 0.340505 sec
+Computation time: 0.012372 sec
+Communication time: 0.328133 sec
+--------------------------------

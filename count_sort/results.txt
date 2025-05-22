@@ -1,0 +1,126 @@
+Count Sort Experiment Results (MPI)
+====================================
+Running sequential for size 25000...
+Done in 0.126207 seconds
+Done in 0.124865 seconds
+Done in 0.124651 seconds
+Done in 0.124651 seconds
+Done in 0.124619 seconds
+Running MPI with 2 processes for size 25000...
+Total time: 0.054536 Comp time 0.054220 Comm time 0.000316 
+Total time: 0.054048 Comp time 0.053739 Comm time 0.000308 
+Total time: 0.054083 Comp time 0.053786 Comm time 0.000298 
+Total time: 0.054106 Comp time 0.053812 Comm time 0.000294 
+Total time: 0.054411 Comp time 0.054118 Comm time 0.000293 
+Running MPI with 4 processes for size 25000...
+Total time: 0.028028 Comp time 0.027189 Comm time 0.000840 
+Total time: 0.027980 Comp time 0.027285 Comm time 0.000695 
+Total time: 0.027891 Comp time 0.027308 Comm time 0.000583 
+Total time: 0.028243 Comp time 0.027445 Comm time 0.000799 
+Total time: 0.028232 Comp time 0.027458 Comm time 0.000774 
+Running MPI with 8 processes for size 25000...
+Total time: 0.028937 Comp time 0.014179 Comm time 0.014758 
+Total time: 0.029006 Comp time 0.014167 Comm time 0.014838 
+Total time: 0.028916 Comp time 0.028530 Comm time 0.000386 
+Total time: 0.028920 Comp time 0.028625 Comm time 0.000295 
+Total time: 0.028951 Comp time 0.014188 Comm time 0.014763 
+Running MPI with 12 processes for size 25000...
+Total time: 0.035614 Comp time 0.018989 Comm time 0.016626 
+Total time: 0.019832 Comp time 0.019004 Comm time 0.000828 
+Total time: 0.019848 Comp time 0.019006 Comm time 0.000842 
+Total time: 0.019884 Comp time 0.019064 Comm time 0.000820 
+Total time: 0.019903 Comp time 0.018978 Comm time 0.000925 
+--------------------------------------
+Running sequential for size 50000...
+Done in 0.498772 seconds
+Done in 0.498890 seconds
+Done in 0.495019 seconds
+Done in 0.494137 seconds
+Done in 0.493099 seconds
+Running MPI with 2 processes for size 50000...
+Total time: 0.219408 Comp time 0.218824 Comm time 0.000583 
+Total time: 0.217248 Comp time 0.216660 Comm time 0.000587 
+Total time: 0.216519 Comp time 0.215139 Comm time 0.001380 
+Total time: 0.215907 Comp time 0.213849 Comm time 0.002058 
+Total time: 0.218177 Comp time 0.216790 Comm time 0.001387 
+Running MPI with 4 processes for size 50000...
+Total time: 0.110844 Comp time 0.109378 Comm time 0.001467 
+Total time: 0.111799 Comp time 0.109496 Comm time 0.002302 
+Total time: 0.111703 Comp time 0.110917 Comm time 0.000786 
+Total time: 0.124444 Comp time 0.123066 Comm time 0.001378 
+Total time: 0.129665 Comp time 0.128543 Comm time 0.001123 
+Running MPI with 8 processes for size 50000...
+Total time: 0.115810 Comp time 0.114570 Comm time 0.001239 
+Total time: 0.115888 Comp time 0.057139 Comm time 0.058749 
+Total time: 0.116242 Comp time 0.057593 Comm time 0.058649 
+Total time: 0.115918 Comp time 0.056990 Comm time 0.058928 
+Total time: 0.115893 Comp time 0.056865 Comm time 0.059028 
+Running MPI with 12 processes for size 50000...
+Total time: 0.078415 Comp time 0.076436 Comm time 0.001978 
+Total time: 0.078086 Comp time 0.076265 Comm time 0.001822 
+Total time: 0.078392 Comp time 0.076164 Comm time 0.002228 
+Total time: 0.078090 Comp time 0.076282 Comm time 0.001808 
+Total time: 0.085034 Comp time 0.083053 Comm time 0.001980 
+--------------------------------------
+Running sequential for size 100000...
+Done in 2.034359 seconds
+Done in 2.032200 seconds
+Done in 2.024369 seconds
+Done in 2.025927 seconds
+Done in 2.037569 seconds
+Running MPI with 2 processes for size 100000...
+Total time: 0.892098 Comp time 0.881939 Comm time 0.010158 
+Total time: 0.899897 Comp time 0.899073 Comm time 0.000824 
+Total time: 0.880848 Comp time 0.880009 Comm time 0.000839 
+Total time: 0.891722 Comp time 0.881479 Comm time 0.010243 
+Total time: 0.881645 Comp time 0.880586 Comm time 0.001059 
+Running MPI with 4 processes for size 100000...
+Total time: 0.460212 Comp time 0.448472 Comm time 0.011740 
+Total time: 0.454028 Comp time 0.449534 Comm time 0.004494 
+Total time: 0.448276 Comp time 0.447137 Comm time 0.001138 
+Total time: 0.451189 Comp time 0.448693 Comm time 0.002496 
+Total time: 0.455202 Comp time 0.454082 Comm time 0.001120 
+Running MPI with 8 processes for size 100000...
+Total time: 0.460582 Comp time 0.458598 Comm time 0.001984 
+Total time: 0.500587 Comp time 0.497276 Comm time 0.003312 
+Total time: 0.508772 Comp time 0.288931 Comm time 0.219841 
+Total time: 0.505315 Comp time 0.275930 Comm time 0.229385 
+Total time: 0.511936 Comp time 0.291239 Comm time 0.220698 
+Running MPI with 12 processes for size 100000...
+Total time: 0.347919 Comp time 0.344129 Comm time 0.003789 
+Total time: 0.342725 Comp time 0.288264 Comm time 0.054461 
+Total time: 0.347083 Comp time 0.343203 Comm time 0.003880 
+Total time: 0.359126 Comp time 0.354774 Comm time 0.004351 
+Total time: 0.362897 Comp time 0.358652 Comm time 0.004245 
+--------------------------------------
+Running sequential for size 200000...
+Done in 8.131210 seconds
+Done in 8.139127 seconds
+Done in 8.168193 seconds
+Done in 8.141147 seconds
+Done in 8.148405 seconds
+Running MPI with 2 processes for size 200000...
+Total time: 3.545057 Comp time 3.543770 Comm time 0.001287 
+Total time: 3.558999 Comp time 3.524306 Comm time 0.034693 
+Total time: 3.554829 Comp time 3.542918 Comm time 0.011911 
+Total time: 3.546660 Comp time 3.527281 Comm time 0.019380 
+Total time: 3.548367 Comp time 3.547041 Comm time 0.001326 
+Running MPI with 4 processes for size 200000...
+Total time: 1.818299 Comp time 1.816403 Comm time 0.001896 
+Total time: 1.811270 Comp time 1.809390 Comm time 0.001880 
+Total time: 1.829428 Comp time 1.819077 Comm time 0.010351 
+Total time: 1.833181 Comp time 1.831324 Comm time 0.001857 
+Total time: 1.805549 Comp time 1.800224 Comm time 0.005325 
+Running MPI with 8 processes for size 200000...
+Total time: 1.837579 Comp time 1.832646 Comm time 0.004933 
+Total time: 1.903287 Comp time 0.998774 Comm time 0.904513 
+Total time: 1.883677 Comp time 0.976838 Comm time 0.906839 
+Total time: 1.888361 Comp time 1.881884 Comm time 0.006477 
+Total time: 1.908870 Comp time 1.902101 Comm time 0.006769 
+Running MPI with 12 processes for size 200000...
+Total time: 1.317013 Comp time 1.258564 Comm time 0.058449 
+Total time: 1.343125 Comp time 1.281129 Comm time 0.061995 
+Total time: 1.274734 Comp time 1.233550 Comm time 0.041184 
+Total time: 1.345936 Comp time 1.284350 Comm time 0.061586 
+Total time: 1.293871 Comp time 1.218914 Comm time 0.074956 
+--------------------------------------
